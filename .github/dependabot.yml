@@ -11,3 +11,10 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "deps"
+    groups:
+      all-updates:
+        patterns:
+          - "*"
+        update_types:
+          - "version-update:semver-patch"
+          - "version-update:semver-minor"
